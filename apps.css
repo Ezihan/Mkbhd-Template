@@ -8,47 +8,53 @@ body
 	background-image: url(Website+Background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	height: 100vh;
 }
 
 #Content {
-	text-align: center;
-	width: 520px;
-	margin-left: 750px;
-	margin-top: 170px;
+	float: right;
+	padding-right: 8%;
+	padding-top: 12%;
 	font-family: 'Raleway', sans-serif;
 }
 
-#im1 {
-	width: 300px;
+#logoContainer {
+	margin-bottom: 1%;
 }
 
-h2
-{
-	font-size: 30px;
-	color: white;
-	padding-top: 5px;
+#im1 {
+	width: 40%;
 }
-h4 {
-	font-size: 20px;
-	margin-left: 90px;
+
+#textContainer {
+	text-align: left;
+}
+
+#heading
+{
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 7%;
+}
+
+#description {
+	font-size: 15px;
 	color: #E4E0DB;
 	font-weight: 300;
-	padding-top: 5px;
-	text-align: left;
 
 }
 
 .anch{
-	font-size: 20px;
-	text-align: left;
-	padding-left: 90px;
-	padding-top: 30px;
+	font-size: 80px;
+	padding-top: 3%;
 	font-size: 17px;
 	font-weight: 800;
 }
+
 a {
 	color: white;
+	text-decoration: none;
 }
 a:hover {
 	color: black;
@@ -56,5 +62,4 @@ a:hover {
 
 .icons {
 	padding-top: 30px;
-	margin-right: 2px;
 }
